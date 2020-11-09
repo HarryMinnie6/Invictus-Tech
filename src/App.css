@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Open+Sans+Condensed:wght@300&family=Quicksand&family=Roboto:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  /* font-family: "Open Sans Condensed", sans-serif; */
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  position: fixed;
+  top: 0;
+  margin: 0 0 0 170px; /*must be the same as navbar width */
+  padding: 16px;
+  height: 100vh;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 768px) {
+  section {
+    margin-left: 0;
+    padding: 2rem;
   }
 }

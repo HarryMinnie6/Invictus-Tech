@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo__container {
+  width: 100%;
+  object-fit: contain;
+}
+img {
+  width: 100%;
+}
+
+.hamburger-button {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 25px;
+  z-index: 99999999999;
+  color: black;
+}
+.hamburger-button .bar {
+  height: 4px;
+  width: 100%;
+  border-radius: 4px;
+  background: #071b29;
+}
+/* -------------------Navbar START-------------------------------------------------- */
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 0;
+  left: 0px;
+  width: 170px;
+  height: 100vh;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  border-right: 2px solid #fe5758;
+}
+.sidebar > header {
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(194, 102, 102);
+  height: 60px;
+}
+ul {
+  position: relative;
+  /* top: 180px; */
+  list-style: none;
+  text-decoration: none;
+  padding: 20px 25px 0 0;
+  text-align: end;
+}
+.link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0;
+  color: #1a163b;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+/* .active {
+  text-decoration: underline;
+} */
+
+#check {
+  display: none;
+}
+label #btn,
+label #cancel {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.contact-details__wrapper {
+  position: relative;
+  bottom: 20px;
+  padding: 60px 35px 0 0;
+}
+.p__header {
+  font-weight: bolder;
+  font-size: 12px;
+}
+.p__detail {
+    font-size: 10px;
+}
+.phone-details__wrapper{
+    padding: 20px 0
+}
+/* -------------------Navbar END-------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .sidebar {
+    left: -172px;
+    opacity: 0.85;
+    z-index: 999;
+  }
+
+  label #btn,
+  label #cancel {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  label #btn {
+    left: 15px;
+    top: 15px;
+    font-size: 40px;
+    width: 80px;
+    color: red;
+    border-radius: px;
+    z-index: 999;
+    /* transition: all 0.5s ease; */
+  }
+  .bar-holder {
+    width: 35px;
+    height: 25px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bar-holder > div {
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #1a163b;
+  }
+  label #cancel {
+    z-index: 1111;
+    left: -150px;
+    top: 15px;
+    color: green;
+    font-size: 20px;
+    /* font-weight: lighter; */
+    transition: all 0.8s ease;
+  }
+
+  #check:checked ~ .sidebar {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    left: 170px;
+    display: none;
+    pointer-events: none;
+  }
+  #check:checked ~ label #cancel {
+    left: 140px;
+  }
+  ul {
+    padding: 15px 35px 0 0;
+    
+  }
+  .contact-details__wrapper {
+    padding: 40px 25px 0 0;
+  }
+ 
+}
+@media (max-width: 450px){
+    .logo__container {
+        align-self: center;
+        width: 90%;
+        object-fit: contain;
+      }
+      img {
+        width: 100%;
+      }
+      ul {
+        padding: 15px 30px 0 0;
+      }
+      .sidebar ul a {
+        padding: 13px 0;
+        font-size: 14px;
+      }
+     
+}
