@@ -1,4 +1,9 @@
 .contact__page {
-  background-color: #1a163b;
-  width: 100vw;
+  /* background-color: #1a163b; */
+  /* width: 100vw; */
+  height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
 }

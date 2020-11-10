@@ -6,12 +6,13 @@ import Navbar from "./Navbar/Navbar";
 import Services from "./Services/Services";
 import Partnerships from "./Partnerships/Partnerships";
 import Home from "./HomePage/Home";
+import Landing from "./LandingPage/Landing";
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+      <Navbar/>
         <Switch>
           <Route path='/services' component={Services} />
           <Route path='/contact' component={Contact} />
