@@ -1,7 +1,12 @@
+.home__page {
+  background-color: #1a163b;
+  width: 100vw;
+}
+
 .welcome__wrapper {
   position: absolute;
   top: 30%;
-  left: 120px;
+  left: 150px;
   width: 470px;
   /* padding: 10px; */
   /* background-color: red; */
@@ -42,7 +47,11 @@
   justify-content: center;
   background-color: green;
 }
-
+@media (max-width: 1024px) {
+  .welcome__wrapper {
+    left: 85px;
+  }
+}
 @media (max-width: 768px) {
   .welcome__wrapper {
     left: 80px;
