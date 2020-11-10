@@ -1,4 +1,5 @@
 import React from "react";
+import PartnersBar from "./PartnersBar";
 import "./Home.css";
 
 function Home() {
@@ -8,9 +9,7 @@ function Home() {
         <h3>Welcome to</h3>
         <h1>Invictus-Tech</h1>
       </div>
-      <div className="partners__bar">
-        <div className="bar"></div>
-      </div>
+      <PartnersBar />
     </section>
   );
 }

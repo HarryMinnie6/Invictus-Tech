@@ -2,7 +2,6 @@
   background-color: #1a163b;
   width: 100vw;
 }
-
 .welcome__wrapper {
   position: absolute;
   top: 30%;
@@ -25,28 +24,6 @@
   color: #fe5758;
 }
 
-.partners__bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  background-color: red;
-}
-.bar {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-56%, -50%);
-
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: green;
-}
 @media (max-width: 1024px) {
   .welcome__wrapper {
     left: 85px;
@@ -63,12 +40,6 @@
   .welcome__wrapper > h1 {
     font-size: 60px;
     font-family: "Roboto", sans-serif;
-  }
-  .bar {
-    bottom: 0;
-    /* top:50%; */
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
