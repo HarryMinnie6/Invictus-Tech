@@ -10,14 +10,14 @@
 section {
   position: fixed;
   top: 0;
-  margin: 0 0 0 170px; /*must be the same as navbar width */
-  padding: 16px;
+  margin: 0 0 0 172px;
+  /* padding: 16px; */
   height: 100vh;
-  width: 100%;
+  /* width: 100vw; */
 }
 @media (max-width: 768px) {
   section {
     margin-left: 0;
-    padding: 2rem;
+    /* padding: 2rem; */
   }
 }
