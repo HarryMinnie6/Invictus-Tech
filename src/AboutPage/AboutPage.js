@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
+// import logo from "../images/office-1209640_1920.jpg";
 
 function AboutPage() {
   return (

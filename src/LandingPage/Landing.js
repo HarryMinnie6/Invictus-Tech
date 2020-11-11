@@ -1,6 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
-import PartnersBar from "./PartnersBar";
+// import PartnersBar from "./PartnersBar";
 
 function Landing() {
   return (
@@ -9,7 +9,7 @@ function Landing() {
         <h3>Welcome to</h3>
         <h1>Invictus-Tech</h1>
       </div>
-      <PartnersBar />
+      {/* <PartnersBar /> */}
     </section>
   );
 }

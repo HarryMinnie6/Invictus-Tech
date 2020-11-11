@@ -1,19 +1,24 @@
 .about__page {
-  /* background-color: #1a163b; */
-  /* width: 100vw; */
-  height: 90vh;
+  background-color: #5248af;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/earth-3866609_1920.jpg");
+  height: auto;
   position: relative;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  margin: 0 0 0 172px;
+  /* margin: 0 0 0 172px; */
+  padding: 30px 0 35px 0;
 }
 .about__page > h1 {
-  margin: 30px 0 0 0;
+  /* margin: 30px 0 0 0; */
   height: 35px;
-  width: 200px;
+  width: 190px;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -25,15 +30,15 @@
 .about-details__holder {
   margin: 30px 0;
   padding: 10px;
-  height: 50%;
-  background-color: red;
+  height: 100%;
+  background-image: linear-gradient(to right, red, blue);
   display: flex;
   justify-content: center;
 }
 
 .about-details__description {
   display: flex;
-  width: 80%;
+  width: 70%;
 }
 .about-details__paragraph {
   width: 100%;
@@ -43,7 +48,7 @@
 .about-details__img-holder,
 .about-details__paragraph-holder {
   width: 50%;
-  margin: 20px;
+  margin: 10px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -53,4 +58,75 @@
   width: 480px;
   height: 280px;
   background-color: brown;
+}
+@media (max-width: 1174px) {
+  .about-details__description {
+    display: flex;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 965px) {
+}
+@media (max-width: 865px) {
+  .about-details__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .about-details__img-holder,
+  .about-details__paragraph-holder {
+    width: 90%;
+  }
+  .img__holder {
+    width: 450px;
+    /* height: 280px; */
+    background-color: brown;
+  }
+}
+@media (max-width: 768px) {
+  .about-details__img-holder,
+  .about-details__paragraph-holder {
+    width: 90%;
+  }
+  .img__holder {
+    width: 450px;
+    height: 250px;
+    background-color: brown;
+    object-fit: contain;
+  }
+  img {
+    height: 100%;
+
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 630px) {
+}
+@media (max-width: 540px) {
+  .img__holder {
+    width: 400px;
+    height: 220px;
+  }
+  .about-details__holder {
+    padding: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .img__holder {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media (max-width: 430px) {
+}
+@media (max-width: 386px) {
+  .img__holder {
+    width: 300px;
+    height: 200px;
+  }
 }
