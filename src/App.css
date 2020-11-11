@@ -7,6 +7,11 @@
   /* font-family: "Quicksand", sans-serif; */
   /* font-family: "Roboto", sans-serif; */
 }
+
+/* fr react-scroll active class */
+ul li > .active {
+  text-decoration: underline;
+}
 section {
   position: relative;
   /* top: 0; */

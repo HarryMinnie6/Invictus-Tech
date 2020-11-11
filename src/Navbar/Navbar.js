@@ -26,7 +26,7 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <ul>
-          <li className="active">
+          <li>
             <Link
               className="link"
               to="landing"
