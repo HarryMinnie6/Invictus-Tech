@@ -1,22 +1,23 @@
 .partners__bar {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100vw;
+  /* left: 0; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 160px;
+  height: 180px;
   background-color: white;
-  padding: 10px;
-  margin-bottom: 10px;
+  /* padding: 10px; */
+  /* margin-bottom: 10px; */
 }
 .partners__holder {
   position: absolute;
-  padding: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-60%, -50%);
+  margin: 0 0 0 172px;
+  padding: 0 0 10px 0;
+  /* top: 50%; */
+  /*left: 50%; */
+  /* transform: translate(-60%, -50%); */
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -33,7 +34,6 @@
     height: 100%;
 
     left: 50%;
-  
   }
 }
 @media (max-width: 768px) {
