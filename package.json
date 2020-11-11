@@ -1,5 +1,5 @@
 {
-  "homepage":"https://HarryMinnie6.github.io/Invictus-Tech",
+  "homepage": "https://HarryMinnie6.github.io/Invictus-Tech",
   "name": "invictus-tech",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-scroll": "1.8.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -18,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", 
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
