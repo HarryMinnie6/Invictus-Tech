@@ -2,11 +2,11 @@ import React from "react";
 import "./Services.css";
 function Services() {
   return (
-    <section className="services__page" id="services">
+    <section className='services__page' id='services'>
       <h1> Services </h1>
-      <div className="services-details__holder">
-        <div className="services-details__description">
-          <div className="services-details__paragraph">
+      <div className='services-details__holder'>
+        <div className='services-details__description'>
+          <div className='services-details__paragraph'>
             <h3>Consulting</h3>
             <p>
               At Invictus Tech, we use technology as an enabler and the
@@ -16,26 +16,28 @@ function Services() {
               implement customised, security-enhanced solutions that integrate
               seamlessly and rapidly into our Customers’ operating processes.
             </p>
-            <a href="#">Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
-          <div className="services-details__img-holder">
+          <div className='services-details__img-holder'>
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
-              alt="img"
+              className='services-image'
+              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              alt='img'
             />
           </div>
         </div>
       </div>
       {/*----------------------------------------------------------  */}
-      <div className="services-details__holder2">
-        <div className="services-details__description2">
-          <div className="services-details__img-holder2">
+      <div className='services-details__holder2'>
+        <div className='services-details__description2'>
+          <div className='services-details__img-holder2'>
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
-              alt="img"
+              className='services-image'
+              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              alt='img'
             />
           </div>
-          <div className="services-details__paragraph2">
+          <div className='services-details__paragraph2'>
             <h3>Project Management</h3>
             <p>
               Our available Solutions include our own areas of expertise as well
@@ -45,14 +47,14 @@ function Services() {
               data manipulation, reporting, alerts and advice and designed to
               meet our Customers’ specific needs.
             </p>
-            <a href="#">Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
         </div>
       </div>
       {/* --------------------------------------------------------- */}
-      <div className="services-details__holder">
-        <div className="services-details__description">
-          <div className="services-details__paragraph">
+      <div className='services-details__holder'>
+        <div className='services-details__description'>
+          <div className='services-details__paragraph'>
             <h3>Data Analytics</h3>
             <p>
               At Huge Connect IoT, Deployment refers to delivery, installation
@@ -63,26 +65,28 @@ function Services() {
               Huge Connect IoT TPN. This includes relevant hardware, mobile data
               SIMs for GSM and Connectivity as a Service.
             </p>
-            <a href="#">Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
-          <div className="services-details__img-holder">
+          <div className='services-details__img-holder'>
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
-              alt="img"
+              className='services-image'
+              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              alt='img'
             />
           </div>
         </div>
       </div>
       {/*----------------------------------------------------------  */}
-      <div className="services-details__holder2">
-        <div className="services-details__description2">
-          <div className="services-details__img-holder2">
+      <div className='services-details__holder2'>
+        <div className='services-details__description2'>
+          <div className='services-details__img-holder2'>
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
-              alt="img"
+              className='services-image'
+              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              alt='img'
             />
           </div>
-          <div className="services-details__paragraph2">
+          <div className='services-details__paragraph2'>
             <h3>Hardware</h3>
             <p>
               Our available Solutions include our own areas of expertise as well
@@ -92,14 +96,14 @@ function Services() {
               data manipulation, reporting, alerts and advice and designed to
               meet our Customers’ specific needs.
             </p>
-            <a href="#">Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
         </div>
       </div>
       {/* --------------------------------------------------------- */}
-      <div className="services-details__holder">
-        <div className="services-details__description">
-          <div className="services-details__paragraph">
+      <div className='services-details__holder'>
+        <div className='services-details__description'>
+          <div className='services-details__paragraph'>
             <h3>Security</h3>
             <p>
               At Huge Connect IoT, Deployment refers to delivery, installation
@@ -110,12 +114,13 @@ function Services() {
               Huge Connect IoT TPN. This includes relevant hardware, mobile data
               SIMs for GSM and Connectivity as a Service.
             </p>
-            <a href="#">Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
-          <div className="services-details__img-holder">
+          <div className='services-details__img-holder'>
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
-              alt="img"
+              className='services-image'
+              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              alt='img'
             />
           </div>
         </div>

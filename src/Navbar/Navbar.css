@@ -10,9 +10,9 @@ body {
   width: 100%;
   object-fit: contain;
 }
-img {
+/* img {
   width: 100%;
-}
+} */
 
 .hamburger-button {
   position: absolute;

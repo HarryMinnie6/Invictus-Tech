@@ -2,28 +2,92 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  /* height: 150px; */
   padding: 5px 0;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: white;
   overflow: hidden;
 }
+.partners__main-holder {
+  /* height: 150px; */
+  width: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partners__sub-holder {
+  height: 80px;
+  width: 450px;
+  /* background-color: red; */
+  padding: 5px 0;
+  display: flex;
+}
+.partner {
+  width: 50%;
+  height: 100%;
+  /* margin: 5px 0; */
+  /* background-color: royalblue; */
+}
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
 
-@media (max-width: 1191px) {
+
+@media (max-width: 1140px) {
+  .partners__sub-holder {
+    height: 80px;
+    width: 600px;
+    /* background-color: red; */
+    padding: 5px 0;
+    display: flex;
+  }
 }
 @media (max-width: 1024px) {
+  .partners__sub-holder {
+    height: 70px;
+    width: 350px;
+  }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 920px) {
+  .partners__sub-holder {
+    height: 60px;
+    width: 300px;
+  }
 }
 @media (max-width: 865px) {
+  .partners__sub-holder {
+    height: 55px;
+    width: 280px;
+  }
 }
 @media (max-width: 768px) {
+  .partners__main-holder {
+    height: 140px;
+  
+  }
+  .partners__main-holder {
+    height: 150px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partners__sub-holder {
+    height: 60px;
+    width: 450px;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 @media (max-width: 630px) {
@@ -31,8 +95,46 @@
 @media (max-width: 540px) {
 }
 @media (max-width: 500px) {
+  .partners__sub-holder {
+    height: 60px;
+    width: 400px;
+
+  }
 }
 @media (max-width: 430px) {
+  .partners__sub-holder {
+    height: 50px;
+    width: 350px;
+  }
+  .partners__main-holder {
+    height: 130px;
+  
+  }
 }
 @media (max-width: 386px) {
+  .partners__sub-holder {
+    height: 50px;
+    width: 320px;
+
+  }
+}
+@media (max-width: 350px) {
+  .partners__sub-holder {
+    height: 50px;
+    width: 310px;
+
+  }}
+@media (max-width: 320px) {
+  .partners__sub-holder {
+    height: 50px;
+    width: 280px;
+
+  }
+}
+@media (max-width: 290px) {
+  .partners__sub-holder {
+    height: 50px;
+    width: 260px;
+
+  }
 }

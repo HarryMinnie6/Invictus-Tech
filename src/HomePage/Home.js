@@ -3,7 +3,7 @@ import React from "react";
 import "./Home.css";
 import Landing from "../LandingPage/Landing";
 import AboutPage from "../AboutPage/AboutPage";
-import Contact from "../Contact/Contact";
+import Contact from "../ContactPage/Contact";
 import Partnerships from "../Partnerships/Partnerships";
 import Services from "../Services/Services";
 // import Navbar from '../Navbar/Navbar'
@@ -14,7 +14,6 @@ function Home() {
       <Landing />
       <AboutPage />
       <Services />
-      <Partnerships />
       <Contact />
     </div>
   );
