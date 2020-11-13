@@ -123,7 +123,7 @@ label #cancel {
   label #btn,
   label #cancel {
     display: block;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
   }
   label #btn {
@@ -137,6 +137,7 @@ label #cancel {
     /* transition: all 0.5s ease; */
   }
   .bar-holder {
+    position: fixed;
     width: 35px;
     height: 25px;
     /* background-color: blue; */
@@ -150,12 +151,47 @@ label #cancel {
     border-radius: 2px;
     background-color: #fe5758;
   }
+  .close-bar {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    /* background-color: blue; */
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+  }
+
+  .close-bar:before,
+  .close-bar:after {
+    content: "";
+    position: absolute;
+
+    z-index: -1;
+    background-color: #2f2c5b;
+    border-radius: 2px;
+  }
+
+  .close-bar:before {
+    left: 53%;
+
+    width: 2px;
+    margin-left: -15%;
+    height: 90%;
+  }
+
+  .close-bar:after {
+    top: 53%;
+    height: 2px;
+    margin-top: -15%;
+    width: 90%;
+  }
+
   label #cancel {
     z-index: 1111;
     left: -150px;
-    top: 15px;
-    color: green;
-    font-size: 20px;
+    top: 8px;
+    /* color: green; */
+    /* font-size: 20px; */
     /* font-weight: lighter; */
     transition: all 0.8s ease;
   }
@@ -172,6 +208,32 @@ label #cancel {
     left: 140px;
   }
 }
+@media (max-width: 5400px) {
+  .logo__container {
+    align-self: center;
+    width: 90%;
+    object-fit: contain;
+  }
+  img {
+    width: 100%;
+  }
+  ul {
+    padding: 25px 20px 0 0;
+  }
+  .link {
+    padding: 20px 0;
+  }
+  .contact-details__wrapper {
+    margin: 15px 15px 0 0;
+  }
+  .p__header {
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  .p__detail {
+    font-size: 11px;
+  }
+}
 @media (max-width: 450px) {
   .logo__container {
     align-self: center;
@@ -185,10 +247,10 @@ label #cancel {
     padding: 15px 20px 0 0;
   }
   .link {
-    padding: 20px 0;
+    padding: 10px 0;
   }
   .contact-details__wrapper {
-    margin: 40px 15px 0 0;
+    margin: 15px 15px 0 0;
   }
   .p__header {
     font-weight: bolder;

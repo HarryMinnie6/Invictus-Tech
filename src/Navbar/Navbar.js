@@ -17,9 +17,11 @@ function Navbar() {
         </div>
       </label>
       <label htmlFor="check">
-        <i className="fas fa-times" id="cancel">
-          x
-        </i>
+        <div className="close-bar" id="cancel">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </label>
       <nav className="sidebar">
         <div className="logo__container">
