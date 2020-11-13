@@ -69,11 +69,6 @@ img {
     display: flex;
     width: 90%;
   }
-  .about-details__img-holder {
-    width: 400px;
-    height: 240px;
-    background-color: gray;
-  }
 }
 @media (max-width: 1024px) {
 }
@@ -113,8 +108,6 @@ img {
 }
 @media (max-width: 630px) {
   .about-details__img-holder {
-    width: 400px;
-    height: 200px;
     margin-bottom: 30px;
   }
 }
@@ -125,17 +118,18 @@ img {
   .about-details__paragraph {
     width: 95%;
     margin-bottom: 30px;
+    padding: 0;
   }
   .about-details__img-holder {
     width: 380px;
-    height: 200px;
+    height: 220px;
     margin-bottom: 15px;
   }
 }
 @media (max-width: 500px) {
   .about-details__img-holder {
     width: 350px;
-    height: 180px;
+    height: 190px;
   }
 }
 @media (max-width: 430px) {
@@ -150,7 +144,7 @@ img {
 @media (max-width: 386px) {
   .about-details__img-holder {
     width: 280px;
-    height: 180px;
+    height: 160px;
     margin-bottom: 0;
   }
 }
