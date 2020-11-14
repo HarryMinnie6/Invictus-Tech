@@ -5,7 +5,7 @@ import aboutImage from "../images/iot.png";
 function AboutPage() {
   return (
     <section className="about__page" id="about">
-      <h1> ¿ What we do ?</h1>
+      <h1>  What we do </h1>
       <div className="about-details__holder">
         <div className="about-details__description">
           <p className="about-details__paragraph">

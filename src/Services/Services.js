@@ -3,8 +3,8 @@ import "./Services.css";
 
 import consultingImage from '../images/question-mark.jpg'
 import managementImage from '../images/project-management.jpg'
-import connectedImage from '../images/smart-home.jpg'
-import smartImage from '../images/home-data.jpg'
+import connectedImage from '../images/smart-home-two.jpg'
+import graphImage from '../images/business-graph.jpg'
 import securityImage from '../images/security.jpg'
 
 function Services() {
@@ -77,7 +77,7 @@ function Services() {
           <div className='services-details__img-holder'>
             <img
               className='services-image'
-              src={smartImage}
+              src={graphImage}
               alt='smart home image'
             />
           </div>
