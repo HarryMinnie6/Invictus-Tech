@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutPage.css";
-// import logo from "../images/office-1209640_1920.jpg";
+import aboutImage from "../images/iot.png";
 
 function AboutPage() {
   return (
-    <section className="about__page">
+    <section className="about__page" id="about">
       <h1> ¿ What we do ?</h1>
       <div className="about-details__holder">
         <div className="about-details__description">
@@ -19,7 +19,7 @@ function AboutPage() {
 
           <div className="about-details__img-holder">
             <img
-              src="https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg"
+              src={aboutImage}
               alt="img"
             />
           </div>

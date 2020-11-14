@@ -1,17 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./LandingPage.css";
 import PartnersBar from "./PartnersBar";
-import logo from "../images/logo-new1.jpg";
+
 
 function Landing() {
   return (
     <section className='home__page' id='landing'>
       <div className='welcome__wrapper'>
-        <h1>Invictus-Tech</h1>
+<h3>Welcome To</h3>
+        <h1>INVICTUS-TECH</h1>
       </div>
       <a
-        href='#services'
+        href='#about'
         className='mainpage-link'
       >
         <i class='fas fa-chevron-down'></i>{" "}

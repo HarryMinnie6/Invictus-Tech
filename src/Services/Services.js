@@ -1,5 +1,12 @@
 import React from "react";
 import "./Services.css";
+
+import consultingImage from '../images/question-mark.jpg'
+import managementImage from '../images/project-management.jpg'
+import connectedImage from '../images/smart-home.jpg'
+import smartImage from '../images/home-data.jpg'
+import securityImage from '../images/security.jpg'
+
 function Services() {
   return (
     <section className='services__page' id='services'>
@@ -21,7 +28,7 @@ function Services() {
           <div className='services-details__img-holder'>
             <img
               className='services-image'
-              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              src={consultingImage}
               alt='img'
             />
           </div>
@@ -33,7 +40,7 @@ function Services() {
           <div className='services-details__img-holder2'>
             <img
               className='services-image'
-              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
+              src={managementImage}
               alt='img'
             />
           </div>
@@ -70,8 +77,8 @@ function Services() {
           <div className='services-details__img-holder'>
             <img
               className='services-image'
-              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
-              alt='img'
+              src={smartImage}
+              alt='smart home image'
             />
           </div>
         </div>
@@ -82,12 +89,12 @@ function Services() {
           <div className='services-details__img-holder2'>
             <img
               className='services-image'
-              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
-              alt='img'
+              src={connectedImage}
+              alt='connected-building image'
             />
           </div>
           <div className='services-details__paragraph2'>
-            <h3>Hardware</h3>
+            <h3>Connected Building</h3>
             <p>
               Our available Solutions include our own areas of expertise as well
               as that of the Huge Connect IoT Trusted Partner Network (TPN).
@@ -119,8 +126,8 @@ function Services() {
           <div className='services-details__img-holder'>
             <img
               className='services-image'
-              src='https://cdn.pixabay.com/photo/2018/10/02/21/39/smart-3720021_960_720.jpg'
-              alt='img'
+              src={securityImage}
+              alt='security image'
             />
           </div>
         </div>

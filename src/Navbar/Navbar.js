@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import "./Navbar.css";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo-new.jpg";
 import { Link } from "react-scroll";
+import { scrollToBottom } from "react-scroll/modules/mixins/animate-scroll";
 
 function Navbar() {
   return (
@@ -54,19 +55,7 @@ function Navbar() {
               Services
             </Link>
           </li>
-          <li>
-            <Link
-              className="link"
-              to="partnerships"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Partnerships
-            </Link>
-          </li>
+
           <li>
             <Link
               className="link"
@@ -74,7 +63,7 @@ function Navbar() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={0}
+              mode={scrollToBottom}
               duration={500}
             >
               Contact
