@@ -6,6 +6,8 @@ import managementImage from '../images/project-management.jpg'
 import connectedImage from '../images/smart-home-two.jpg'
 import graphImage from '../images/business-graph.jpg'
 import securityImage from '../images/security.jpg'
+import hospitalityImage from '../images/csm_solutions-overview-coffee-supply-chain_50c06c2606.png'
+import hospitality2Image from '../images/cms-solutions-1-cropped.png'
 
 function Services() {
   return (
@@ -111,7 +113,7 @@ function Services() {
       <div className='services-details__holder'>
         <div className='services-details__description'>
           <div className='services-details__paragraph'>
-            <h3>Security</h3>
+            <h3>Hospitality</h3>
             <p>
               At Huge Connect IoT, Deployment refers to delivery, installation
               and integration of the actual devices, sensors, nodes, gateways,
@@ -126,13 +128,38 @@ function Services() {
           <div className='services-details__img-holder'>
             <img
               className='services-image'
-              src={securityImage}
+              
+              src={hospitality2Image}
               alt='security image'
             />
           </div>
         </div>
       </div>
       {/*----------------------------------------------------------  */}
+      <div className='services-details__holder2'>
+        <div className='services-details__description2'>
+          <div className='services-details__img-holder2'>
+            <img
+              className='services-image'
+              src={securityImage}
+              alt='connected-building image'
+            />
+          </div>
+          <div className='services-details__paragraph2'>
+            <h3>Security</h3>
+            <p>
+              Our available Solutions include our own areas of expertise as well
+              as that of the Huge Connect IoT Trusted Partner Network (TPN).
+              Rather than simply ‘box-dropping’, we are able to offer managed
+              solutions that integrate data acquisition, transmission, security,
+              data manipulation, reporting, alerts and advice and designed to
+              meet our Customers’ specific needs.
+            </p>
+            <a href='#'>Learn More</a>
+          </div>
+        </div>
+      </div>
+      {/* --------------------------------------------------------- */}
     </section>
   );
 }
