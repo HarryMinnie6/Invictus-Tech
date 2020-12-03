@@ -26,12 +26,13 @@
   /* background-color: red; */
   padding: 5px 0;
   display: flex;
+  justify-content:space-evenly
 }
 .partner {
   /* width: 50%; */
   height: 100%;
   /* margin: 5px 0; */
-  /* background-color: royalblue; */
+  background-color: royalblue;
 }
 img {
   width: 100%;

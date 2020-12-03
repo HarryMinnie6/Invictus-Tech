@@ -12,10 +12,10 @@ function Landing() {
         <h1>INVICTUS-TECH</h1>
       </div>
       <a
-        href='#about'
+        href='about'
         className='mainpage-link'
       >
-        <i class='fas fa-chevron-down'></i>{" "}
+        <i class='fas fa-chevron-down'></i>
       </a>
       <PartnersBar />
     </section>

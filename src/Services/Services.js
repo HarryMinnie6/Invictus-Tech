@@ -13,7 +13,7 @@ function Services() {
   return (
     <section className='services__page' id='services'>
       <h1> Services </h1>
-      <div className='services-details__holder'>
+     {/* <div className='services-details__holder'>
         <div className='services-details__description'>
           <div className='services-details__paragraph'>
             <h3>Consulting</h3>
@@ -35,9 +35,9 @@ function Services() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       {/*----------------------------------------------------------  */}
-      <div className='services-details__holder2'>
+     {/* <div className='services-details__holder2'>
         <div className='services-details__description2'>
           <div className='services-details__img-holder2'>
             <img
@@ -59,7 +59,7 @@ function Services() {
             <a href='#'>Learn More</a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* --------------------------------------------------------- */}
       <div className='services-details__holder'>
         <div className='services-details__description'>
